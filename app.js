@@ -50,7 +50,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
     if(gamePlaying){
         var target = document.querySelector('.target-score').value;
         var finalTarget;
-        target == 0 ? finalTarget = 30 : finalTarget = target;
+        target == 0 ? finalTarget = 50 : finalTarget = target;
         
         //copy score to board
         score[activePlayer] += roundScore;
